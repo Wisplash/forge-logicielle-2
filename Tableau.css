@@ -1,0 +1,33 @@
+table
+{
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+th,td
+{
+    border: solid;
+    min-width: 50px;
+    min-height: 20px;
+    text-align: center;
+}
+.valider
+{
+    width: 300px;
+}
+th
+{
+    background-color: rgb(74,66,244);
+}
+.pair
+{
+    background-color: rgb(128,255,255);
+}
+.impair
+{
+    background-color: rgb(128,255,128);
+}
+.impair:hover, .pair:hover
+{
+    background-color: yellow;
+}
